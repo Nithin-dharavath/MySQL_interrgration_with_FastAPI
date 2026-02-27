@@ -1,4 +1,3 @@
-from docutils.nodes import author
 from fastapi import FastAPI, Depends
 from database import get_db, engine
 from sqlalchemy.orm import session
